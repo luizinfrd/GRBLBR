@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-color: beige;
+}
+
+#hero {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #00070e;
+    border-radius: .3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url(../assets/fundo_hero.jpg);
+  }
+  
+  #hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  #hero h2 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  #hero p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+  
+  #hero .btn-primary {
+    background-color: #7e6e51;
+    border-color: #fdfbe6;
+  }
+  
+  #hero img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .row h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+
+  .col-md-6{
+    padding: 150px;
+  }
+    
+  #cards{
+    padding-top: 50px;
+  }
+
+  .card{
+    margin-bottom: 20px;
+  }
+
+  .card-img-top{
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  #carousel{
+    padding-top: 50px;
+  }
+
+  .carousel-img {
+    height: 400px;
+  }
+
+  #sobre-a-empresa {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: beige; /* Cor de fundo clara para contraste */
+  }
+  
+  #sobre-a-empresa h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  #sobre-a-empresa p {
+    text-align: justify; /* Alinhamento justificado para melhor legibilidade */
+    font-size: 1.1rem;
+    line-height: 1.6; /* Aumentar o espaçamento entre linhas para melhorar a leitura */
+    margin-bottom: 20px;
+    text-decoration: #00070e;
+  }
+  
+  #sobre-a-empresa p:last-child { /* Remover margem inferior da última parágrafo */
+    margin-bottom: 0;
+  }
+
+  footer {
+    background-color: #00070e ; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto branca */
+    padding: 50px 0 ; /* Espaçamento interno */
+    margin-top: 70px;
+    background-image: url(../assets/fundo_footer.jpg);
+  }
+  
+  footer img {
+    max-width: 150px; /* Tamanho máximo da logo */
+    margin-bottom: 20px; /* Espaçamento abaixo da logo */
+  }
+  
+  footer p {
+    margin-bottom: 0; /* Remover margem inferior do parágrafo de copyright */
+  }
+  
+  footer ul {
+    list-style: none; /* Remover marcadores padrão da lista */
+    padding: 0; /* Remover espaçamento interno da lista */
+  }
+  
+  footer li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+  }
+  
+ #contato{
+  margin-left: 60vw;
+  left: 100px;
+ }
+  
+  
